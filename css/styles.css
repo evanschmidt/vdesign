@@ -1872,8 +1872,8 @@ tr.selected td {
 #main-menu ul li:nth-child(6) {
   float: left;
   width: 20%;
-  margin-left: 100%;
-  margin-right: -120%;
+  margin-left: 80%;
+  margin-right: -100%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000362}}
 #main-menu ul li:nth-child(6) a {
