@@ -637,7 +637,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\0000360}}
   #main {
     /* Move all the children of #main down to make room. */
-    padding-top: 4em;
+    padding-top: 4.5em;
     position: relative;
   }
 
@@ -646,7 +646,7 @@ table {
     /* Move the navbar up inside #main's padding. */
     position: absolute;
     top: 0;
-    height: 4em;
+    height: 4.5em;
     width: 100%;
   }
 }
