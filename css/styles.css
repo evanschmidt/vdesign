@@ -1762,4 +1762,9 @@ tr.selected td {
  * _vdesign.scss mixing for Vdesign
  *
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\000037}}
+.front .page-title {
+  display: none;
+}
+
 /* @import "theme-B"; */
