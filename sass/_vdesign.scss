@@ -9,11 +9,14 @@
  	}
  }
  #main-menu {
-    border: 5px solid;
- 	ul {
+    @include zen-grid-item-base();
     @include zen-grid-item(5, 1);
+ 	ul {
+	$zen-column-count:  6;
+	$zen-gutter-width:  20px;
+    @include zen-grid-item(6, 1);
+    @include zen-nested-container();
  		li {
-		    border: 1px solid;
  			a {
  				color: $white;
  				padding: 1em;
@@ -53,7 +56,7 @@
  			}
  		}
  		li:nth-child(6) {
-		    @include zen-grid-item(1, 5);
+		    @include zen-grid-item(1, 6);
 		    a {
  				background: none repeat scroll 0 0 $pink;
  			}
