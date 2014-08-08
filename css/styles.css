@@ -1776,7 +1776,7 @@ tr.selected td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000321}}
 #main-menu ul .li:nth-child(1) {
-  background: #54b948;
+  background: none repeat scroll 0 0 #54b948;
 }
 
 /* @import "theme-B"; */
