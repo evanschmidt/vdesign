@@ -1775,8 +1775,28 @@ tr.selected td {
   display: block;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000321}}
-#main-menu ul .li:nth-child(1) {
+#main-menu ul li:nth-child(1) {
   background: none repeat scroll 0 0 #54b948;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000324}}
+#main-menu ul li:nth-child(2) {
+  background: none repeat scroll 0 0 #f58235;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000327}}
+#main-menu ul li:nth-child(3) {
+  background: none repeat scroll 0 0 #336699;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000330}}
+#main-menu ul li:nth-child(4) {
+  background: none repeat scroll 0 0 #ffd105;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000333}}
+#main-menu ul li:nth-child(5) {
+  background: none repeat scroll 0 0 #5aadc5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000336}}
+#main-menu ul li:nth-child(5) {
+  background: none repeat scroll 0 0 #d069a9;
 }
 
 /* @import "theme-B"; */
