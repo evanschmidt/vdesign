@@ -12,8 +12,6 @@
     border: 5px solid;
  	ul {
     @include zen-grid-item(5, 1);
-    @include zen-grid-item-base();
-    @include zen-nested-container();
  		li {
 		    border: 1px solid;
  			a {
