@@ -1794,7 +1794,7 @@ tr.selected td {
   width: 100%;
   margin-left: 0%;
   margin-right: -100%;
-  border: 1px solid;
+  border: 5px solid;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000315}}
 #main-menu ul {
