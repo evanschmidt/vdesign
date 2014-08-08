@@ -9,6 +9,8 @@
  	}
  }
  #main-menu {
+ 	@include zen-grid-container();
+ 	@include zen-grid-background();
  	ul {
  		li {
  			a {
