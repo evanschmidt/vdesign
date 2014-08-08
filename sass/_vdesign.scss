@@ -11,16 +11,16 @@
  #main-menu {
  	ul {
 	$zen-column-count:  6;
-	$zen-gutter-width:  20px;
+	$zen-gutter-width:  10px;
     @include zen-grid-item(6, 1);
     @include zen-nested-container();
     margin-top: 0;
     margin-bottom: 0;
-    //@include zen-grid-background();
+    @include zen-grid-background();
  		li {
  			a {
  				color: $white;
- 				margin: 0 10px;
+ 				margin: 0 5px;
  				padding: 1em;
  				text-decoration: none;
  				text-transform: lowercase;
