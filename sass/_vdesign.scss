@@ -15,7 +15,6 @@
     @include zen-grid-item-base();
     @include zen-grid-item(6, 1);
     @include zen-nested-container();
- 	@include zen-grid-background();
  		li {
  			a {
  				color: $white;
