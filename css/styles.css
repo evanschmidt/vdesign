@@ -1769,7 +1769,7 @@ tr.selected td {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000314}}
 #main-menu ul li a {
-  border: 1px solid;
+  color: white;
   padding: 1em;
   text-decoration: none;
   display: block;
