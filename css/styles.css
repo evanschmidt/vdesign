@@ -1791,9 +1791,9 @@ tr.selected td {
   box-sizing: border-box;
   word-wrap: break-word;
   float: left;
-  width: 100%;
+  width: 83.33333%;
   margin-left: 0%;
-  margin-right: -100%;
+  margin-right: -83.33333%;
   padding-left: 0;
   padding-right: 0;
 }
