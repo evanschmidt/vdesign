@@ -81,7 +81,7 @@ $zen-auto-include-item-base: false;
   $zen-column-count: 3;
  #page {
   $zen-column-count: 3;
-  //@include zen-grid-background();
+  @include zen-grid-background();
  }
 
   /**
@@ -163,7 +163,7 @@ $zen-auto-include-item-base: false;
   $zen-column-count: 5;
  #page {
   $zen-column-count: 5;
-  //@include zen-grid-background();
+  @include zen-grid-background();
  }
   /**
    * The layout when there is only one sidebar, the left one.
