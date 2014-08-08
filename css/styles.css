@@ -1794,24 +1794,20 @@ tr.selected td {
   width: 100%;
   margin-left: 0%;
   margin-right: -100%;
-  padding-left: 0;
-  padding-right: 0;
+  border: 1px solid;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000315}}
 #main-menu ul {
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  word-wrap: break-word;
   float: left;
   width: 100%;
   margin-left: 0%;
   margin-right: -100%;
   padding-left: 0;
   padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000320}}
+#main-menu ul li {
+  border: 1px solid;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000322}}
 #main-menu ul li a {
