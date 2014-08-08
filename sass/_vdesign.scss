@@ -25,28 +25,40 @@
  				display: block;
  			}
  		}
- 		li:nth-child(1) a {
+ 		li:nth-child(1) {
 		    @include zen-grid-item(1, 1);
+ 		}
+ 		li:nth-child(2) {
+		    @include zen-grid-item(1, 2);
+ 		}
+ 		li:nth-child(3) {
+		    @include zen-grid-item(1, 3);
+ 		}
+ 		li:nth-child(4) {
+		    @include zen-grid-item(1, 4);
+ 		}
+ 		li:nth-child(5) {
+		    @include zen-grid-item(1, 5);
+ 		}
+ 		li:nth-child(6) {
+		    @include zen-grid-item(1, 6);
+ 		}
+ 		li:nth-child(1) a {
  			background: none repeat scroll 0 0 $green;
  		}
  		li:nth-child(2) a {
-		    @include zen-grid-item(1, 2);
  			background: none repeat scroll 0 0 $orange;
  		}
  		li:nth-child(3) a {
-		    @include zen-grid-item(1, 3);
  			background: none repeat scroll 0 0 $blue;
  		}
  		li:nth-child(4) a {
-		    @include zen-grid-item(1, 4);
  			background: none repeat scroll 0 0 $yellow;
  		}
  		li:nth-child(5) a {
-		    @include zen-grid-item(1, 5);
  			background: none repeat scroll 0 0 $aqua;
  		}
  		li:nth-child(6) a {
-		    @include zen-grid-item(1, 6);
  			background: none repeat scroll 0 0 $pink;
  		}
  	}
