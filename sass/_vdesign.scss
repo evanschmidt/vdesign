@@ -14,10 +14,8 @@
   	@include zen-grid-background();
     border: 5px solid;
  	ul {
-    @include zen-grid-item-base();
-	$zen-column-count:  6;
-	$zen-gutter-width:  20px;
     @include zen-grid-item(5, 1);
+    @include zen-grid-item-base();
     @include zen-nested-container();
  		li {
 		    border: 1px solid;
