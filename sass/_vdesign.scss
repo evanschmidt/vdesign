@@ -9,12 +9,10 @@
  	}
  }
  #main-menu {
+ 	ul {
     @include zen-grid-item-base();
 	$zen-column-count:  6;
 	$zen-gutter-width:  20px;
-    @include zen-grid-item(5, 1);
-    @include zen-grid-background();
- 	ul {
     @include zen-grid-item(6, 1);
     @include zen-nested-container();
  		li {
