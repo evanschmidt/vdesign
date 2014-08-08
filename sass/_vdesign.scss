@@ -16,8 +16,10 @@
     @include zen-grid-item(6, 1);
     @include zen-nested-container();
  		li {
+ 			padding: 0;
  			a {
  				color: $white;
+ 				margin-right: 1em;
  				padding: 1em;
  				text-decoration: none;
  				text-transform: lowercase;
