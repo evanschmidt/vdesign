@@ -62,3 +62,6 @@
  		}
  	}
  }
+ #page {
+ 	@include zen-grid-background();
+ }
