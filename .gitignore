@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Ignore cache files from sass
+.sass-cache/*
+=======
+.sass-cache
+>>>>>>> a4774d80f2984570fdddb88f3095d2cd865caaed
+=======
+# Ignore cache files from sass
+.sass-cache/*
+>>>>>>> 2.0
+=======
+# Ignore cache files from sass
+.sass-cache/*
+>>>>>>> b6c13d80da9ab99b1da424ba08b718c7f6f4d0c1

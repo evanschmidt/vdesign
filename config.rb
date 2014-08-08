@@ -12,9 +12,10 @@ environment = :development
 #environment = :production
 
 # In development, we can turn on the FireSass-compatible debug_info.
-firesass = false
-#firesass = true
+#firesass = false
+firesass = true
 
+disable_warnings = true
 
 # Location of the theme's resources.
 css_dir         = "css"
