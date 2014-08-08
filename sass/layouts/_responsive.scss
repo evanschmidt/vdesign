@@ -83,7 +83,17 @@ $zen-auto-include-item-base: false;
   $zen-column-count: 3;
   //@include zen-grid-background();
  }
-
+#main-menu {
+  ul {
+    //@include zen-grid-background();
+    li {
+      a {
+        margin: 0 5px;
+        padding: 0.5em;
+        font-size: 1em;
+      }
+    }
+}
   /**
    * The layout when there is only one sidebar, the left one.
    */
@@ -165,6 +175,17 @@ $zen-auto-include-item-base: false;
   $zen-column-count: 5;
   //@include zen-grid-background();
  }
+#main-menu {
+  ul {
+    //@include zen-grid-background();
+    li {
+      a {
+        margin: 0 5px;
+        padding: 1em;
+        font-size: 1.5em;
+      }
+    }
+}
   /**
    * The layout when there is only one sidebar, the left one.
    */
