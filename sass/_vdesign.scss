@@ -8,3 +8,15 @@
  		display: none;
  	}
  }
+ #main-menu {
+ 	ul {
+ 		li {
+ 			a {
+ 				border: 1px solid;
+ 				padding: 1em;
+ 				text-decoration: none;
+ 				display: block;
+ 			}
+ 		}
+ 	}
+ }
