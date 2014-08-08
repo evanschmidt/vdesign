@@ -15,6 +15,7 @@
 	$zen-gutter-width:  20px;
     @include zen-grid-item(6, 1);
     @include zen-nested-container();
+    @include zen-grid-background();
  		li {
  			padding: 0;
  			a {
