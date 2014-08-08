@@ -1,21 +1,15 @@
 /*
 Syntax error: Invalid CSS after "}": expected "}", was ""
-        on line 239 of /websites/vdesign/dev/sites/all/themes/vdesign/sass/layouts/_responsive.scss
+        on line 240 of /websites/vdesign/dev/sites/all/themes/vdesign/sass/layouts/_responsive.scss
         from line 16 of /websites/vdesign/dev/sites/all/themes/vdesign/sass/styles.scss
 
 Backtrace:
-/websites/vdesign/dev/sites/all/themes/vdesign/sass/layouts/_responsive.scss:239
+/websites/vdesign/dev/sites/all/themes/vdesign/sass/layouts/_responsive.scss:240
 /websites/vdesign/dev/sites/all/themes/vdesign/sass/styles.scss:16
 /Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/scss/parser.rb:1306:in `expected'
 /Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/scss/parser.rb:1242:in `expected'
 /Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/scss/parser.rb:1237:in `tok!'
 /Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/scss/parser.rb:637:in `block'
-/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/scss/parser.rb:397:in `media_directive'
-/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/scss/parser.rb:216:in `special_directive'
-/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/scss/parser.rb:188:in `directive'
-/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/scss/parser.rb:655:in `block_child'
-/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/scss/parser.rb:647:in `block_contents'
-/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/scss/parser.rb:636:in `block'
 /Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/scss/parser.rb:397:in `media_directive'
 /Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/scss/parser.rb:216:in `special_directive'
 /Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/scss/parser.rb:188:in `directive'
@@ -85,4 +79,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 239 of /websites/vdesign/dev/sites/all/themes/vdesign/sass/layouts/_responsive.scss\A         from line 16 of /websites/vdesign/dev/sites/all/themes/vdesign/sass/styles.scss"; }
+  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 240 of /websites/vdesign/dev/sites/all/themes/vdesign/sass/layouts/_responsive.scss\A         from line 16 of /websites/vdesign/dev/sites/all/themes/vdesign/sass/styles.scss"; }
