@@ -9,9 +9,6 @@
  	}
  }
  #main-menu {
-    @include zen-grid-item-base();
-    @include zen-grid-item(5, 1);
-  	@include zen-grid-background();
     border: 5px solid;
  	ul {
     @include zen-grid-item(5, 1);
