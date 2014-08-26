@@ -81,3 +81,20 @@
   margin: 0 auto;
   text-align: center;
 }
+#block-views-masonry-block-1 {
+  .isotope-element {
+    width: 10px;
+    height: auto;
+    margin: 6px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    background: transparent;
+    color: #fff;
+  }
+ .isotope-element img {
+   width: auto;
+   margin: 0 auto;
+   text-align: center;
+  }
+}
