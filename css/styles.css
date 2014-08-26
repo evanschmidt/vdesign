@@ -1846,4 +1846,23 @@ tr.selected td {
   background: none repeat scroll 0 0 #d069a9;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000368}}
+.isotope-element {
+  width: 150px;
+  height: auto;
+  margin: 20px 20px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  background: transparent;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000379}}
+.isotope-element img {
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
 /* @import "theme-B"; */

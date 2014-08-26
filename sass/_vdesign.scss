@@ -64,3 +64,20 @@
  		}
  	}
  }
+//isotope layout
+ .isotope-element {
+  width: 150px;
+  height: auto;
+  margin: 20px 20px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  background: transparent;
+  color: #fff;
+}
+
+.isotope-element img {
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
