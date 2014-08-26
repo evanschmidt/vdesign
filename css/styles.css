@@ -1853,7 +1853,7 @@ tr.selected td {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000371}}
 .isotope-element {
-  width: 250px;
+  width: auto;
   height: auto;
   margin: 20px 20px;
   float: left;
