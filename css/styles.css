@@ -1846,7 +1846,12 @@ tr.selected td {
   background: none repeat scroll 0 0 #d069a9;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000367}}
+#block-block-4 {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000371}}
 .isotope-element {
   width: 250px;
   height: auto;
@@ -1858,14 +1863,14 @@ tr.selected td {
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000382}}
 .isotope-element img {
   width: auto;
   margin: 0 auto;
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000388}}
 #block-views-masonry-block-1 .isotope-element {
   width: 20px;
   height: auto;
@@ -1876,7 +1881,7 @@ tr.selected td {
   background: transparent;
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000398}}
 #block-views-masonry-block-1 .isotope-element img {
   width: auto;
   margin: 0 auto;
