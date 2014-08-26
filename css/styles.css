@@ -1867,9 +1867,9 @@ tr.selected td {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000385}}
 #block-views-masonry-block-1 .isotope-element {
-  width: 10px;
+  width: 20px;
   height: auto;
-  margin: 6px;
+  margin: 2px;
   float: left;
   overflow: hidden;
   position: relative;
