@@ -70,9 +70,7 @@
  //isotope filter
  .view-isotope {
   .view-header {
-    display: block;
-    clear: both;
-    margin: 1em;
+    height: $nav-height;
   }
   .isotope-options {
   ul {
@@ -84,6 +82,7 @@
     margin-bottom: 0;
     //@include zen-grid-background();
     li {
+      list-style: none;
       a {
         color: $white;
         text-align: center;
