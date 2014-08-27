@@ -13,11 +13,22 @@
 (function ($, Drupal, window, document, undefined) {
 
 
+
+
 // To understand behaviors, see https://drupal.org/node/756722#behaviors
 Drupal.behaviors.my_custom_behavior = {
   attach: function(context, settings) {
 
-$(window).bind('hashchange', function(event) {
+    // Place your code here.
+
+  }
+};
+
+// To understand behaviors, see https://drupal.org/node/756722#behaviors
+Drupal.behaviors.hashchange_behavior = {
+  attach: function(context, settings) {
+
+    $(window).bind('hashchange', function(event) {
         // get options object from hash
         var hashOptions = $.deparam.fragment();
         // apply options from hash
@@ -26,10 +37,10 @@ $(window).bind('hashchange', function(event) {
               // trigger hashchange to capture any hash data on init
               .trigger('hashchange');
     }
-    
 
   }
 };
+
 
 
 })(jQuery, Drupal, this, this.document);
