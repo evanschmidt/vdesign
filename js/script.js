@@ -12,15 +12,6 @@
 // - http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth
 (function ($, Drupal, window, document, undefined) {
 
-$(window).bind('hashchange', function(event) {
-        // get options object from hash
-        var hashOptions = $.deparam.fragment();
-        // apply options from hash
-        $container.isotope(hashOptions);
-      })
-              // trigger hashchange to capture any hash data on init
-              .trigger('hashchange');
-    }
 
 // To understand behaviors, see https://drupal.org/node/756722#behaviors
 Drupal.behaviors.my_custom_behavior = {
