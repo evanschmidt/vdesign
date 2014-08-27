@@ -83,7 +83,7 @@ $zen-auto-include-item-base: false;
   $zen-column-count: 3;
   //@include zen-grid-background();
  }
-  #main-menu {
+  #main-menu, .view-isotope .view-header {
     ul {
     //@include zen-grid-background();
       li {
@@ -176,7 +176,7 @@ $zen-auto-include-item-base: false;
   $zen-column-count: 5;
   //@include zen-grid-background();
  }
-  #main-menu {
+  #main-menu, .view-isotope .view-header {
     ul {
       //@include zen-grid-background();
       li {
