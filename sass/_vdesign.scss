@@ -68,11 +68,8 @@
  	clear: both;
  }
  //isotope filter
- .view-isotope {
-  .view-header {
+  .isotope-options {
     height: $nav-height;
-  }
-  .isotope-options, #block-views-isotope-filter-block.isotope-options {
   ul {
   $zen-column-count:  6;
   $zen-gutter-width:  10px;
@@ -129,7 +126,6 @@
     }
   }
   }
- }
 //isotope layout
  .isotope-element {
   width: auto;
