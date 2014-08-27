@@ -18,7 +18,16 @@ Drupal.behaviors.my_custom_behavior = {
   attach: function(context, settings) {
 
     // Place your code here.
-
+ $(window).bind('hashchange', function(event) {
+        // get options object from hash
+        var hashOptions = $.deparam.fragment();
+        // apply options from hash
+        $container.isotope(hashOptions);
+      })
+              // trigger hashchange to capture any hash data on init
+              .trigger('hashchange');
+    }
+    
   }
 };
 
