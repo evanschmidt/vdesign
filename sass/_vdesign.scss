@@ -72,7 +72,7 @@
   .view-header {
     height: $nav-height;
   }
-  .isotope-options {
+  .isotope-options, #block-views-isotope-filter-block {
   ul {
   $zen-column-count:  6;
   $zen-gutter-width:  10px;
