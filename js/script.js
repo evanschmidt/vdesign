@@ -39,7 +39,7 @@ Drupal.behaviors.hashchange_behavior = {
     }
 
   }
-};
+};)
 
 
 
