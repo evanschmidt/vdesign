@@ -28,12 +28,12 @@ Drupal.behaviors.my_custom_behavior = {
   }
   //Customize colorbox dimensions
   var colorboxResize = function(resize) {
-    var width = "97%";
-    var height = "97%";
-    if($(window).width() > 960) { width = "98%" }
-    if($(window).height() > 700) { height = "98%" }
-    if($(window).width() < 480) { width = "80%" }
-    if($(window).width() < 480) { height = "80%" }
+    var width = "100%";
+    var height = "100%";
+    if($(window).width() > 960) { width = "100%" }
+    if($(window).height() > 700) { height = "100%" }
+    if($(window).width() < 480) { width = "100%" }
+    if($(window).width() < 480) { height = "100%" }
     $.colorbox.settings.height = height;
     $.colorbox.settings.width = width;
     //if window is resized while lightbox open
