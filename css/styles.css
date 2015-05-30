@@ -672,16 +672,16 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003103}}
   .sidebar-first #content {
     float: left;
-    width: 66.66667%;
-    margin-left: 33.33333%;
-    margin-right: -100%;
+    width: 200%;
+    margin-left: 100%;
+    margin-right: -300%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003108}}
   .sidebar-first .region-sidebar-first {
     float: left;
-    width: 33.33333%;
+    width: 100%;
     margin-left: 0%;
-    margin-right: -33.33333%;
+    margin-right: -100%;
   }
 
   /**
@@ -695,16 +695,16 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003118}}
   .sidebar-second #content {
     float: left;
-    width: 66.66667%;
+    width: 200%;
     margin-left: 0%;
-    margin-right: -66.66667%;
+    margin-right: -200%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003123}}
   .sidebar-second .region-sidebar-second {
     float: left;
-    width: 33.33333%;
-    margin-left: 66.66667%;
-    margin-right: -100%;
+    width: 100%;
+    margin-left: 200%;
+    margin-right: -300%;
   }
 
   /**
@@ -719,23 +719,23 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003133}}
   .two-sidebars #content {
     float: left;
-    width: 66.66667%;
-    margin-left: 33.33333%;
-    margin-right: -100%;
+    width: 200%;
+    margin-left: 100%;
+    margin-right: -300%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003138}}
   .two-sidebars .region-sidebar-first {
     float: left;
-    width: 33.33333%;
+    width: 100%;
     margin-left: 0%;
-    margin-right: -33.33333%;
+    margin-right: -100%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003143}}
   .two-sidebars .region-sidebar-second {
     float: left;
-    width: 100%;
+    width: 300%;
     margin-left: 0%;
-    margin-right: -100%;
+    margin-right: -300%;
     padding-left: 0;
     padding-right: 0;
     clear: left;
@@ -757,24 +757,24 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003153}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     float: left;
-    width: 33.33333%;
+    width: 100%;
     margin-left: 0%;
-    margin-right: -33.33333%;
+    margin-right: -100%;
     clear: left;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003158}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     float: left;
-    width: 33.33333%;
-    margin-left: 33.33333%;
-    margin-right: -66.66667%;
+    width: 100%;
+    margin-left: 100%;
+    margin-right: -200%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003162}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     float: left;
-    width: 33.33333%;
-    margin-left: 66.66667%;
-    margin-right: -100%;
+    width: 100%;
+    margin-left: 200%;
+    margin-right: -300%;
   }
 }
 /**
@@ -799,16 +799,16 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003196}}
   .sidebar-first #content {
     float: left;
-    width: 80%;
-    margin-left: 20%;
-    margin-right: -100%;
+    width: 400%;
+    margin-left: 100%;
+    margin-right: -500%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003201}}
   .sidebar-first .region-sidebar-first {
     float: left;
-    width: 20%;
+    width: 100%;
     margin-left: 0%;
-    margin-right: -20%;
+    margin-right: -100%;
   }
 
   /**
@@ -822,16 +822,16 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003211}}
   .sidebar-second #content {
     float: left;
-    width: 80%;
+    width: 400%;
     margin-left: 0%;
-    margin-right: -80%;
+    margin-right: -400%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003216}}
   .sidebar-second .region-sidebar-second {
     float: left;
-    width: 20%;
-    margin-left: 80%;
-    margin-right: -100%;
+    width: 100%;
+    margin-left: 400%;
+    margin-right: -500%;
   }
 
   /**
@@ -846,23 +846,23 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003226}}
   .two-sidebars #content {
     float: left;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: -80%;
+    width: 300%;
+    margin-left: 100%;
+    margin-right: -400%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003231}}
   .two-sidebars .region-sidebar-first {
     float: left;
-    width: 20%;
+    width: 100%;
     margin-left: 0%;
-    margin-right: -20%;
+    margin-right: -100%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/layouts\/_responsive\.scss}line{font-family:\00003236}}
   .two-sidebars .region-sidebar-second {
     float: left;
-    width: 20%;
-    margin-left: 80%;
-    margin-right: -100%;
+    width: 100%;
+    margin-left: 400%;
+    margin-right: -500%;
   }
 }
 /* Component (SMACSS module) rules */
@@ -1117,12 +1117,15 @@ table {
 .tabs-primary, .tabs-secondary {
   overflow: hidden;
   *zoom: 1;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYmJiYmJiIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(100%, #bbbbbb), color-stop(100%, rgba(0, 0, 0, 0)));
   background-image: -moz-linear-gradient(bottom, #bbbbbb 1px, rgba(0, 0, 0, 0) 1px);
   background-image: -webkit-linear-gradient(bottom, #bbbbbb 1px, rgba(0, 0, 0, 0) 1px);
   background-image: linear-gradient(to top, #bbbbbb 1px, rgba(0, 0, 0, 0) 1px);
   /* IE 9 and earlier don't understand gradients. */
   list-style: none;
-  border-bottom: 1px solid #bbbbbb \0/ie;
+  border-bottom: 1px solid #bbb \0/ie;
   margin: 1.5em 0;
   padding: 0 2px;
   white-space: nowrap;
@@ -1154,16 +1157,16 @@ a.tabs-primary__tab-link, a.tabs-primary__tab-link.is-active, a.tabs-secondary__
   -moz-border-radius-topright: 4px;
   -webkit-border-top-right-radius: 4px;
   border-top-right-radius: 4px;
-  text-shadow: 1px 1px 0 white;
-  border: 1px solid #bbbbbb;
+  text-shadow: 1px 1px 0 #fff;
+  border: 1px solid #bbb;
   border-bottom-color: transparent;
   /* IE 9 and earlier don't understand gradients. */
   border-bottom: 0 \0/ie;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/components\/_misc\.scss}line{font-family:\00003301}}
-.is-active.tabs-primary__tab {
-  border-bottom-color: white;
+.tabs-primary__tab.is-active {
+  border-bottom-color: #fff;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/components\/_misc\.scss}line{font-family:\00003307}}
@@ -1196,6 +1199,9 @@ a.tabs-primary__tab-link:active, a.tabs-primary__tab-link.is-active {
   background-color: transparent;
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFE9E9E9', endColorstr='#00E9E9E9');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U5ZTllOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2U5ZTllOSIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e9e9e9), color-stop(100%, rgba(233, 233, 233, 0)));
   background-image: -moz-linear-gradient(#e9e9e9, rgba(233, 233, 233, 0));
   background-image: -webkit-linear-gradient(#e9e9e9, rgba(233, 233, 233, 0));
   background-image: linear-gradient(#e9e9e9, rgba(233, 233, 233, 0));
@@ -1225,7 +1231,7 @@ a.tabs-secondary__tab-link, a.tabs-secondary__tab-link.is-active {
   -o-transition: background-color 0.3s;
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
-  text-shadow: 1px 1px 0 white;
+  text-shadow: 1px 1px 0 #fff;
   background-color: #f2f2f2;
   color: #666;
   padding: 0 .5em;
@@ -1240,7 +1246,7 @@ a.tabs-secondary__tab-link:hover, a.tabs-secondary__tab-link:focus {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/components\/_misc\.scss}line{font-family:\00003372}}
 a.tabs-secondary__tab-link:active, a.tabs-secondary__tab-link.is-active {
-  text-shadow: 1px 1px 0 #333333;
+  text-shadow: 1px 1px 0 #333;
   background-color: #666;
   border-color: #000;
   color: #fff;
@@ -1763,9 +1769,9 @@ tr.selected td {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000312}}
 #main-menu ul, #block-system-main-menu ul {
   float: left;
-  width: 100%;
+  width: 600%;
   margin-left: 0%;
-  margin-right: -100%;
+  margin-right: -600%;
   padding-left: 0;
   padding-right: 0;
   margin-top: 0;
@@ -1773,7 +1779,7 @@ tr.selected td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000321}}
 #main-menu ul li a, #block-system-main-menu ul li a {
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   text-decoration: none;
   text-transform: lowercase;
@@ -1782,31 +1788,31 @@ tr.selected td {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000329}}
 #main-menu ul li:nth-child(1), #block-system-main-menu ul li:nth-child(1) {
   float: left;
-  width: 16.66667%;
+  width: 100%;
   margin-left: 0%;
-  margin-right: -16.66667%;
+  margin-right: -100%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000331}}
 #main-menu ul li:nth-child(1) a, #block-system-main-menu ul li:nth-child(1) a {
-  background: none repeat scroll 0 0 #54b948;
+  background: none repeat scroll 0 0 #54B948;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000335}}
 #main-menu ul li:nth-child(2), #block-system-main-menu ul li:nth-child(2) {
   float: left;
-  width: 16.66667%;
-  margin-left: 16.66667%;
-  margin-right: -33.33333%;
+  width: 100%;
+  margin-left: 100%;
+  margin-right: -200%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000337}}
 #main-menu ul li:nth-child(2) a, #block-system-main-menu ul li:nth-child(2) a {
-  background: none repeat scroll 0 0 #f58235;
+  background: none repeat scroll 0 0 #F58235;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000341}}
 #main-menu ul li:nth-child(3), #block-system-main-menu ul li:nth-child(3) {
   float: left;
-  width: 16.66667%;
-  margin-left: 33.33333%;
-  margin-right: -50%;
+  width: 100%;
+  margin-left: 200%;
+  margin-right: -300%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000343}}
 #main-menu ul li:nth-child(3) a, #block-system-main-menu ul li:nth-child(3) a {
@@ -1815,35 +1821,35 @@ tr.selected td {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000347}}
 #main-menu ul li:nth-child(4), #block-system-main-menu ul li:nth-child(4) {
   float: left;
-  width: 16.66667%;
-  margin-left: 50%;
-  margin-right: -66.66667%;
+  width: 100%;
+  margin-left: 300%;
+  margin-right: -400%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000349}}
 #main-menu ul li:nth-child(4) a, #block-system-main-menu ul li:nth-child(4) a {
-  background: none repeat scroll 0 0 #ffd105;
+  background: none repeat scroll 0 0 #FFD105;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000353}}
 #main-menu ul li:nth-child(5), #block-system-main-menu ul li:nth-child(5) {
   float: left;
-  width: 16.66667%;
-  margin-left: 66.66667%;
-  margin-right: -83.33333%;
+  width: 100%;
+  margin-left: 400%;
+  margin-right: -500%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000355}}
 #main-menu ul li:nth-child(5) a, #block-system-main-menu ul li:nth-child(5) a {
-  background: none repeat scroll 0 0 #5aadc5;
+  background: none repeat scroll 0 0 #5AADC5;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000359}}
 #main-menu ul li:nth-child(6), #block-system-main-menu ul li:nth-child(6) {
   float: left;
-  width: 16.66667%;
-  margin-left: 83.33333%;
-  margin-right: -100%;
+  width: 100%;
+  margin-left: 500%;
+  margin-right: -600%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000361}}
 #main-menu ul li:nth-child(6) a, #block-system-main-menu ul li:nth-child(6) a {
-  background: none repeat scroll 0 0 #d069a9;
+  background: none repeat scroll 0 0 #D069A9;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000367}}
@@ -1859,9 +1865,9 @@ tr.selected td {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000374}}
 .isotope-options ul {
   float: left;
-  width: 100%;
+  width: 600%;
   margin-left: 0%;
-  margin-right: -100%;
+  margin-right: -600%;
   padding-left: 0;
   padding-right: 0;
   margin-top: 0;
@@ -1873,7 +1879,7 @@ tr.selected td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000384}}
 .isotope-options ul li a {
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   text-decoration: none;
   text-transform: lowercase;
@@ -1882,31 +1888,31 @@ tr.selected td {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000392}}
 .isotope-options ul li:nth-child(1) {
   float: left;
-  width: 16.66667%;
+  width: 100%;
   margin-left: 0%;
-  margin-right: -16.66667%;
+  margin-right: -100%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000394}}
 .isotope-options ul li:nth-child(1) a {
-  background: none repeat scroll 0 0 #54b948;
+  background: none repeat scroll 0 0 #54B948;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000398}}
 .isotope-options ul li:nth-child(2) {
   float: left;
-  width: 16.66667%;
-  margin-left: 16.66667%;
-  margin-right: -33.33333%;
+  width: 100%;
+  margin-left: 100%;
+  margin-right: -200%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\00003100}}
 .isotope-options ul li:nth-child(2) a {
-  background: none repeat scroll 0 0 #f58235;
+  background: none repeat scroll 0 0 #F58235;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\00003104}}
 .isotope-options ul li:nth-child(3) {
   float: left;
-  width: 16.66667%;
-  margin-left: 33.33333%;
-  margin-right: -50%;
+  width: 100%;
+  margin-left: 200%;
+  margin-right: -300%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\00003106}}
 .isotope-options ul li:nth-child(3) a {
@@ -1915,35 +1921,35 @@ tr.selected td {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\00003110}}
 .isotope-options ul li:nth-child(4) {
   float: left;
-  width: 16.66667%;
-  margin-left: 50%;
-  margin-right: -66.66667%;
+  width: 100%;
+  margin-left: 300%;
+  margin-right: -400%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\00003112}}
 .isotope-options ul li:nth-child(4) a {
-  background: none repeat scroll 0 0 #ffd105;
+  background: none repeat scroll 0 0 #FFD105;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\00003116}}
 .isotope-options ul li:nth-child(5) {
   float: left;
-  width: 16.66667%;
-  margin-left: 66.66667%;
-  margin-right: -83.33333%;
+  width: 100%;
+  margin-left: 400%;
+  margin-right: -500%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\00003118}}
 .isotope-options ul li:nth-child(5) a {
-  background: none repeat scroll 0 0 #5aadc5;
+  background: none repeat scroll 0 0 #5AADC5;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\00003122}}
 .isotope-options ul li:nth-child(6) {
   float: left;
-  width: 16.66667%;
-  margin-left: 83.33333%;
-  margin-right: -100%;
+  width: 100%;
+  margin-left: 500%;
+  margin-right: -600%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\00003124}}
 .isotope-options ul li:nth-child(6) a {
-  background: none repeat scroll 0 0 #d069a9;
+  background: none repeat scroll 0 0 #D069A9;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\00003131}}
@@ -1981,6 +1987,18 @@ tr.selected td {
   width: auto;
   margin: 0 auto;
   text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\00003164}}
+#cboxClose {
+  background: transparent url("images/controls.png") no-repeat scroll -25px 0;
+  bottom: auto;
+  top: 0;
+  height: 25px;
+  position: absolute;
+  right: 0;
+  text-indent: -9999px;
+  width: 25px;
 }
 
 /* @import "theme-B"; */
