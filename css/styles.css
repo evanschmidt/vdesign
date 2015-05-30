@@ -1985,7 +1985,6 @@ tr.selected td {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\00003164}}
 #cboxClose {
-  background: transparent url("images/controls.png") no-repeat scroll -25px 0;
   bottom: auto;
   top: 0;
   height: 25px;
