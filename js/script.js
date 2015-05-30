@@ -34,8 +34,8 @@ Drupal.behaviors.my_custom_behavior = {
     if($(window).height() > 700) { height = "100%" }
     if($(window).width() < 480) { width = "100%" }
     if($(window).width() < 480) { height = "100%" }
-      console.log ("width" + $(window).width());
-      console.log ("height" + $(window).height());
+      //console.log ("width" + $(window).width());
+      //console.log ("height" + $(window).height());
     $.colorbox.settings.height = height;
     $.colorbox.settings.width = width;
     //if window is resized while lightbox open
