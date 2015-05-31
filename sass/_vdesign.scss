@@ -16,7 +16,7 @@
 	$zen-column-count:  6;
 	$zen-gutter-width:  10px;
     @include zen-grid-item(6, 1);
-    @include zen-nested-container();
+    @include zen-grid-container($context: grid-item);
     margin-top: 0;
     margin-bottom: 0;
     //@include zen-grid-background();
@@ -78,7 +78,7 @@
   $zen-column-count:  6;
   $zen-gutter-width:  10px;
     @include zen-grid-item(6, 1);
-    @include zen-nested-container();
+    @include zen-grid-container($context: grid-item);
     margin-top: 0;
     margin-bottom: 0;
     //@include zen-grid-background();
