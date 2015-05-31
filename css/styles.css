@@ -1854,7 +1854,7 @@ body {
 }
 /* line 87, ../sass/_vdesign.scss */
 .isotope-options ul li a {
-  color: white;
+  color: black;
   text-align: center;
   text-decoration: none;
   text-transform: lowercase;
@@ -1867,20 +1867,12 @@ body {
   margin-left: 0%;
   margin-right: -16.66667%;
 }
-/* line 97, ../sass/_vdesign.scss */
-.isotope-options ul li:nth-child(1) a {
-  background: none repeat scroll 0 0 #54b948;
-}
 /* line 101, ../sass/_vdesign.scss */
 .isotope-options ul li:nth-child(2) {
   float: left;
   width: 16.66667%;
   margin-left: 16.66667%;
   margin-right: -33.33333%;
-}
-/* line 103, ../sass/_vdesign.scss */
-.isotope-options ul li:nth-child(2) a {
-  background: none repeat scroll 0 0 #f58235;
 }
 /* line 107, ../sass/_vdesign.scss */
 .isotope-options ul li:nth-child(3) {
@@ -1889,20 +1881,12 @@ body {
   margin-left: 33.33333%;
   margin-right: -50%;
 }
-/* line 109, ../sass/_vdesign.scss */
-.isotope-options ul li:nth-child(3) a {
-  background: none repeat scroll 0 0 #336699;
-}
 /* line 113, ../sass/_vdesign.scss */
 .isotope-options ul li:nth-child(4) {
   float: left;
   width: 16.66667%;
   margin-left: 50%;
   margin-right: -66.66667%;
-}
-/* line 115, ../sass/_vdesign.scss */
-.isotope-options ul li:nth-child(4) a {
-  background: none repeat scroll 0 0 #ffd105;
 }
 /* line 119, ../sass/_vdesign.scss */
 .isotope-options ul li:nth-child(5) {
@@ -1911,20 +1895,12 @@ body {
   margin-left: 66.66667%;
   margin-right: -83.33333%;
 }
-/* line 121, ../sass/_vdesign.scss */
-.isotope-options ul li:nth-child(5) a {
-  background: none repeat scroll 0 0 #5aadc5;
-}
 /* line 125, ../sass/_vdesign.scss */
 .isotope-options ul li:nth-child(6) {
   float: left;
   width: 16.66667%;
   margin-left: 83.33333%;
   margin-right: -100%;
-}
-/* line 127, ../sass/_vdesign.scss */
-.isotope-options ul li:nth-child(6) a {
-  background: none repeat scroll 0 0 #d069a9;
 }
 
 /* line 134, ../sass/_vdesign.scss */
