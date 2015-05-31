@@ -1,63 +1,27 @@
 # -*- encoding: utf-8 -*-
 
-Gem::Specification.new do |s|
-  s.name        = 'zen-grids'
+Gem::Specification.new do |spec|
+  spec.name         = 'zen-grids'
 
-  s.summary     = %q{A Compass plugin for Zen Grids, a fluid responsive grid system}
-  s.description = %q{Zen Grids is an intuitive, flexible grid system that leverages the natural source order of your content to make it easier to create fluid responsive designs. With an easy-to-use Sass mixin set, the Zen Grids system can be applied to an infinite number of layouts, including responsive, adaptive, fluid and fixed-width layouts.}
+  spec.summary      = %q{A Compass plugin for Zen Grids, a fluid responsive grid system}
+  spec.description  = %q{Zen Grids is an intuitive, flexible grid system that leverages the natural source order of your content to make it easier to create fluid responsive designs. With an easy-to-use Sass mixin set, the Zen Grids system can be applied to an infinite number of layouts, including responsive, adaptive, fluid and fixed-width layouts.}
 
-  s.homepage    = 'http://zengrids.com'
-  s.license     = 'GPL-2'
-  s.rubyforge_project =
+  spec.homepage     = 'http://zengrids.com'
+  spec.rubyforge_project =
 
-  s.version     = '1.4'
-  s.date        = '2013-04-02'
+  spec.version      = '2.0.0.beta.3'
+  spec.date         = '2014-09-03'
+  spec.licenses     = ['GPL-2']
 
-  s.authors     = ['John Albin Wilkins']
-  s.email       = 'virtually.johnalbin@gmail.com'
+  spec.authors      = ['John Albin Wilkins']
+  spec.email        = 'virtually.johnalbin@gmail.com'
 
-  s.add_runtime_dependency('sass', ">= 3.1")
+  spec.add_runtime_dependency('sass', "~> 3.3")
 
-  s.files       = %w[
+  spec.files        = `git ls-files`.split($/).select {|f| File.exist?(f) && f =~ %r{^(lib|stylesheets|templates)/} }
+  spec.files        += %w(
     LICENSE.txt
-    README.txt
-    lib/zen-grids.rb
-    stylesheets/_zen.scss
-    stylesheets/zen/_background.scss
-    stylesheets/zen/_grids.scss
-    templates/project/_init.scss
-    templates/project/_layout.scss
-    templates/project/_modules.scss
-    templates/project/_visually-hidden.scss
-    templates/project/example.html
-    templates/project/manifest.rb
-    templates/project/styles.scss
-    templates/unit-tests/manifest.rb
-    templates/unit-tests/README.txt
-    templates/unit-tests/sass/function-zen-direction-flip.scss
-    templates/unit-tests/sass/function-zen-grid-item-width.scss
-    templates/unit-tests/sass/function-zen-half-gutter.scss
-    templates/unit-tests/sass/function-zen-unit-width.scss
-    templates/unit-tests/sass/zen-clear.scss
-    templates/unit-tests/sass/zen-float.scss
-    templates/unit-tests/sass/zen-grid-background.scss
-    templates/unit-tests/sass/zen-grid-container.scss
-    templates/unit-tests/sass/zen-grid-flow-item.scss
-    templates/unit-tests/sass/zen-grid-item-base.scss
-    templates/unit-tests/sass/zen-grid-item.scss
-    templates/unit-tests/sass/zen-nested-container.scss
-    templates/unit-tests/test-results/function-zen-direction-flip.css
-    templates/unit-tests/test-results/function-zen-grid-item-width.css
-    templates/unit-tests/test-results/function-zen-half-gutter.css
-    templates/unit-tests/test-results/function-zen-unit-width.css
-    templates/unit-tests/test-results/zen-clear.css
-    templates/unit-tests/test-results/zen-float.css
-    templates/unit-tests/test-results/zen-grid-background.css
-    templates/unit-tests/test-results/zen-grid-container.css
-    templates/unit-tests/test-results/zen-grid-flow-item.css
-    templates/unit-tests/test-results/zen-grid-item-base.css
-    templates/unit-tests/test-results/zen-grid-item.css
-    templates/unit-tests/test-results/zen-nested-container.css
+    README.md
     zen-grids.gemspec
-  ]
+  )
 end

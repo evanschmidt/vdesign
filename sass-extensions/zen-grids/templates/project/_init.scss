@@ -1,21 +1,32 @@
 //
 // @file
-// This file sets up all our variables and load all the modules we need for all
+// This file sets up all our variables and loads all the modules we need for all
 // generated CSS in this project. To use it, simply: @import "init";
 //
 
-// Legacy browser variables for Compass.
-$legacy-support-for-ie6     : false;
-$legacy-support-for-ie7     : false;
+// Supported browsers variable for Compass.
+$browser-minimum-versions: (
+  'chrome':  null,
+  'firefox': null,
+  'ie':      "8",
+  'safari':  null,
+  'opera':   null
+);
 
 // Set up Zen Grids.
-$zen-column-count           : 1;
-$zen-gutter-width           : 20px;
-$zen-auto-include-item-base : false;
+$zen-columns                      : 1;
+$zen-gutters                      : 20px;
+$zen-auto-include-grid-item-base  : false;
+
+// Set up a unit of vertical rhythm.
+$base-font-size                   : 16px;
+$base-line-height                 : 1.5em;
+$vertical-rhythm                  : 1rem*($base-line-height/1em);
 
 //
 // Import our modules.
 //
-@import "zen";
-@import "zen/background";
+@import "zen-grids";
+@import "zen-grids/background";
+@import "zen-grids/flow";
 @import "visually-hidden";
