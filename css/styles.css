@@ -1778,7 +1778,7 @@ body {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/vdesign\/dev\/sites\/all\/themes\/vdesign\/sass\/_vdesign\.scss}line{font-family:\0000324}}
 #main-menu ul li a, #block-system-main-menu ul li a {
-  color: white;
+  color: black;
   text-align: center;
   text-decoration: none;
   text-transform: lowercase;
