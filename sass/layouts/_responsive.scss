@@ -84,7 +84,7 @@ $zen-auto-include-item-base: false;
   //@include zen-grid-background();
  }
  #header {
-  @include zen-grid-background();
+//  @include zen-grid-background();
   .header__name-and-slogan {
     @include zen-grid-item(2, 1);
   }
@@ -188,7 +188,7 @@ $zen-auto-include-item-base: false;
   //@include zen-grid-background();
  }
  #header {
-  @include zen-grid-background();
+//  @include zen-grid-background();
   .header__name-and-slogan {
     @include zen-grid-item(3, 1);
   }
