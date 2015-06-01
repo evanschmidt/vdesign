@@ -1818,6 +1818,10 @@ body {
 #block-block-6 .contact-phone {
   margin-right: 10px;
 }
+/* line 22, ../sass/_vdesign.scss */
+#block-block-6 .contact-email {
+  font-weight: bold;
+}
 /* line 25, ../sass/_vdesign.scss */
 #block-block-6 p {
   margin: 0;
