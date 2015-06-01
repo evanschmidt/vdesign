@@ -178,6 +178,16 @@ $zen-auto-include-item-base: false;
  }
  #header {
   @include zen-grid-background();
+  @include zen-grid-item(5, 1);
+  @include zen-nested-container(); // Since we're making every block in this region be a grid item.
+
+  .header__name-and-slogan {
+    @include zen-grid-item(3, 1);
+    float: none;
+  }
+  .header__region {
+    @include zen-grid-item(2, 4);
+  }
  } 
   #main-menu, .isotope-options, #block-system-main-menu {
     ul {
