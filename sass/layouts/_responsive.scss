@@ -178,9 +178,6 @@ $zen-auto-include-item-base: false;
  }
  #header {
   @include zen-grid-background();
-  @include zen-grid-item(5, 1);
-  @include zen-nested-container(); // Since we're making every block in this region be a grid item.
-  @include zen-clear();
   .header__name-and-slogan {
     @include zen-grid-item(3, 1);
     float: none;
