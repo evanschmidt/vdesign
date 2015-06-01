@@ -186,9 +186,21 @@ $zen-auto-include-item-base: false;
     clear: none;
   }
   #block-block-6 {
+    border-top: 10px solid green;
     margin: 0;
+    .contact-phone {
+      margin-right: 10px;
+
+    }
+    .contact-email {
+
+    }
     p {
       margin: 0;
+    }
+    a {
+      color: $black;
+      text-decoration: none;
     }
   }
  } 
