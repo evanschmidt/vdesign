@@ -176,6 +176,9 @@ $zen-auto-include-item-base: false;
   $zen-column-count: 5;
   //@include zen-grid-background();
  }
+ #header {
+  @include zen-grid-background();
+ } 
   #main-menu, .isotope-options, #block-system-main-menu {
     ul {
       //@include zen-grid-background();

@@ -11,9 +11,6 @@
  		display: none;
  	}
  }
- #header {
-  @include zen-grid-background();
- }
  #main-menu, #block-system-main-menu {
  	ul {
 	$zen-column-count:  6;
