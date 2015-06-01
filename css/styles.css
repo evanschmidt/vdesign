@@ -792,6 +792,7 @@ table {
     margin-right: -100%;
     padding-left: 0;
     padding-right: 0;
+    clear: left;
   }
   /* line 184, ../sass/layouts/_responsive.scss */
   #header .header__name-and-slogan {
