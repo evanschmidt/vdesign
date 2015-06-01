@@ -799,8 +799,8 @@ table {
   #header .header__region {
     float: right;
     width: 40%;
-    margin-right: 60%;
-    margin-left: -100%;
+    margin-right: 0%;
+    margin-left: -40%;
   }
 
   /* line 194, ../sass/layouts/_responsive.scss */
