@@ -11,6 +11,26 @@
  		display: none;
  	}
  }
+
+#block-block-6 {
+  border-top: 10px solid green;
+  margin: 0;
+  .contact-phone {
+    margin-right: 10px;
+
+  }
+  .contact-email {
+
+  }
+  p {
+    margin: 0;
+  }
+  a {
+    color: $black;
+    text-decoration: none;
+  }
+}
+
  #main-menu, #block-system-main-menu {
  	ul {
 	$zen-column-count:  6;

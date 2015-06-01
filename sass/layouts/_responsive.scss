@@ -92,24 +92,6 @@ $zen-auto-include-item-base: false;
     @include zen-grid-item(1, 1, right);
     clear: none;
   }
-  #block-block-6 {
-    border-top: 10px solid green;
-    margin: 0;
-    .contact-phone {
-      margin-right: 10px;
-
-    }
-    .contact-email {
-
-    }
-    p {
-      margin: 0;
-    }
-    a {
-      color: $black;
-      text-decoration: none;
-    }
-  }
  } 
 
   #main-menu, .isotope-options, #block-system-main-menu {
@@ -213,24 +195,6 @@ $zen-auto-include-item-base: false;
   .header__region {
     @include zen-grid-item(2, 1, right);
     clear: none;
-  }
-  #block-block-6 {
-    border-top: 10px solid green;
-    margin: 0;
-    .contact-phone {
-      margin-right: 10px;
-
-    }
-    .contact-email {
-
-    }
-    p {
-      margin: 0;
-    }
-    a {
-      color: $black;
-      text-decoration: none;
-    }
   }
  } 
 
