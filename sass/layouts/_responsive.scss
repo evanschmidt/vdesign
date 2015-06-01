@@ -180,7 +180,6 @@ $zen-auto-include-item-base: false;
   @include zen-grid-background();
   .header__name-and-slogan {
     @include zen-grid-item(3, 1);
-    float: none;
   }
   .header__region {
     @include zen-grid-item(2, 1, right);
