@@ -183,6 +183,7 @@ $zen-auto-include-item-base: false;
   }
   .header__region {
     @include zen-grid-item(2, 1, right);
+    clear: none;
   }
  } 
 
