@@ -185,6 +185,12 @@ $zen-auto-include-item-base: false;
     @include zen-grid-item(2, 1, right);
     clear: none;
   }
+  #block-block-6 {
+    margin: 0;
+    p {
+      margin: 0;
+    }
+  }
  } 
 
   #main-menu, .isotope-options, #block-system-main-menu {
