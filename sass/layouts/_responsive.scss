@@ -183,9 +183,10 @@ $zen-auto-include-item-base: false;
     float: none;
   }
   .header__region {
-    @include zen-grid-item(2, 4);
+    @include zen-grid-item(2, 4, right);
   }
  } 
+
   #main-menu, .isotope-options, #block-system-main-menu {
     ul {
       //@include zen-grid-background();
