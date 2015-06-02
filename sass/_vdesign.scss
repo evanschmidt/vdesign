@@ -44,11 +44,12 @@
     //@include zen-grid-background();
  		li {
  			a {
- 				color: $black;
+ 				color: $lessblack;
+        display: inline;
+        float: left;
  				text-align: center;
  				text-decoration: none;
  				text-transform: lowercase;
- 				display: block;
  			}
  		}
 /*
@@ -109,11 +110,12 @@
     li {
       list-style: none;
       a {
-        color: $black;
+        color: $lessblack;
+        display: inline;
+        float: left;
         text-align: center;
         text-decoration: none;
         text-transform: lowercase;
-        display: block;
       }
     }
 /*
