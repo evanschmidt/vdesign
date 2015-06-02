@@ -672,7 +672,7 @@ table {
 
   /* line 101, ../sass/layouts/_responsive.scss */
   #main-menu ul li a, .isotope-options ul li a, #block-system-main-menu ul li a {
-    font-size: 1.25em;
+    font-size: 1.5em;
     margin-right: 1em;
     margin-top: 0.5em;
   }
