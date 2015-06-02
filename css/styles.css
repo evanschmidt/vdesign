@@ -637,7 +637,7 @@ table {
   /* line 60, ../sass/layouts/_responsive.scss */
   #main {
     /* Move all the children of #main down to make room. */
-    padding-top: 4.5em;
+    padding-top: 2.5em;
     position: relative;
   }
 
@@ -646,7 +646,7 @@ table {
     /* Move the navbar up inside #main's padding. */
     position: absolute;
     top: 0;
-    height: 4.5em;
+    height: 2.5em;
     width: 100%;
   }
 }
@@ -1901,7 +1901,7 @@ a.inquire {
 /* line 105, ../sass/_vdesign.scss */
 .isotope-options {
   background: transparent;
-  height: 4.5em;
+  height: 2.5em;
 }
 /* line 108, ../sass/_vdesign.scss */
 .isotope-options ul {
