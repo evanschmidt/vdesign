@@ -1836,6 +1836,44 @@ body {
   padding-right: 0;
   margin-top: 0;
   margin-bottom: 0;
+  /*
+   		li:nth-child(1) {
+  		    @include zen-grid-item(1, 1);
+  			a {
+   				//background: none repeat scroll 0 0 $green;
+   			} 		
+   		}
+   		li:nth-child(2) {
+  		    @include zen-grid-item(1, 2);
+   			a {
+   				//background: none repeat scroll 0 0 $orange;
+   			}
+   		}
+   		li:nth-child(3) {
+  		    @include zen-grid-item(1, 3);
+  			a {
+  	 			//background: none repeat scroll 0 0 $blue;
+  	 		}    
+   		}
+   		li:nth-child(4) {
+  		    @include zen-grid-item(1, 4);
+  		    a {
+   				//background: none repeat scroll 0 0 $yellow;
+   			}
+   		}
+   		li:nth-child(5) {
+  		    @include zen-grid-item(1, 5);
+  		    a {
+   				//background: none repeat scroll 0 0 $aqua;
+   			}
+   		}
+   		li:nth-child(6) {
+  		    @include zen-grid-item(1, 6);
+  		    a {
+   				//background: none repeat scroll 0 0 $pink;
+   			}
+   		}
+   */
 }
 /* line 46, ../sass/_vdesign.scss */
 #main-menu ul li a, #block-system-main-menu ul li a {
@@ -1845,60 +1883,18 @@ body {
   text-transform: lowercase;
   display: block;
 }
-/* line 54, ../sass/_vdesign.scss */
-#main-menu ul li:nth-child(1), #block-system-main-menu ul li:nth-child(1) {
-  float: left;
-  width: 16.66667%;
-  margin-left: 0%;
-  margin-right: -16.66667%;
-}
-/* line 60, ../sass/_vdesign.scss */
-#main-menu ul li:nth-child(2), #block-system-main-menu ul li:nth-child(2) {
-  float: left;
-  width: 16.66667%;
-  margin-left: 16.66667%;
-  margin-right: -33.33333%;
-}
-/* line 66, ../sass/_vdesign.scss */
-#main-menu ul li:nth-child(3), #block-system-main-menu ul li:nth-child(3) {
-  float: left;
-  width: 16.66667%;
-  margin-left: 33.33333%;
-  margin-right: -50%;
-}
-/* line 72, ../sass/_vdesign.scss */
-#main-menu ul li:nth-child(4), #block-system-main-menu ul li:nth-child(4) {
-  float: left;
-  width: 16.66667%;
-  margin-left: 50%;
-  margin-right: -66.66667%;
-}
-/* line 78, ../sass/_vdesign.scss */
-#main-menu ul li:nth-child(5), #block-system-main-menu ul li:nth-child(5) {
-  float: left;
-  width: 16.66667%;
-  margin-left: 66.66667%;
-  margin-right: -83.33333%;
-}
-/* line 84, ../sass/_vdesign.scss */
-#main-menu ul li:nth-child(6), #block-system-main-menu ul li:nth-child(6) {
-  float: left;
-  width: 16.66667%;
-  margin-left: 83.33333%;
-  margin-right: -100%;
-}
 
-/* line 92, ../sass/_vdesign.scss */
+/* line 94, ../sass/_vdesign.scss */
 #block-block-4 {
   clear: both;
 }
 
-/* line 96, ../sass/_vdesign.scss */
+/* line 98, ../sass/_vdesign.scss */
 .isotope-options {
   background: transparent;
   height: 4.5em;
 }
-/* line 99, ../sass/_vdesign.scss */
+/* line 101, ../sass/_vdesign.scss */
 .isotope-options ul {
   float: left;
   width: 100%;
@@ -1908,12 +1904,50 @@ body {
   padding-right: 0;
   margin-top: 0;
   margin-bottom: 0;
+  /*
+      li:nth-child(1) {
+          @include zen-grid-item(1, 1);
+        a {
+          //background: none repeat scroll 0 0 $green;
+        }     
+      }
+      li:nth-child(2) {
+          @include zen-grid-item(1, 2);
+        a {
+          //background: none repeat scroll 0 0 $orange;
+        }
+      }
+      li:nth-child(3) {
+          @include zen-grid-item(1, 3);
+        a {
+          //background: none repeat scroll 0 0 $blue;
+        }    
+      }
+      li:nth-child(4) {
+          @include zen-grid-item(1, 4);
+          a {
+          //background: none repeat scroll 0 0 $yellow;
+        }
+      }
+      li:nth-child(5) {
+          @include zen-grid-item(1, 5);
+          a {
+          //background: none repeat scroll 0 0 $aqua;
+        }
+      }
+      li:nth-child(6) {
+          @include zen-grid-item(1, 6);
+          a {
+          //background: none repeat scroll 0 0 $pink;
+        }
+      }
+  */
 }
-/* line 107, ../sass/_vdesign.scss */
+/* line 109, ../sass/_vdesign.scss */
 .isotope-options ul li {
   list-style: none;
 }
-/* line 109, ../sass/_vdesign.scss */
+/* line 111, ../sass/_vdesign.scss */
 .isotope-options ul li a {
   color: black;
   text-align: center;
@@ -1921,50 +1955,8 @@ body {
   text-transform: lowercase;
   display: block;
 }
-/* line 117, ../sass/_vdesign.scss */
-.isotope-options ul li:nth-child(1) {
-  float: left;
-  width: 16.66667%;
-  margin-left: 0%;
-  margin-right: -16.66667%;
-}
-/* line 123, ../sass/_vdesign.scss */
-.isotope-options ul li:nth-child(2) {
-  float: left;
-  width: 16.66667%;
-  margin-left: 16.66667%;
-  margin-right: -33.33333%;
-}
-/* line 129, ../sass/_vdesign.scss */
-.isotope-options ul li:nth-child(3) {
-  float: left;
-  width: 16.66667%;
-  margin-left: 33.33333%;
-  margin-right: -50%;
-}
-/* line 135, ../sass/_vdesign.scss */
-.isotope-options ul li:nth-child(4) {
-  float: left;
-  width: 16.66667%;
-  margin-left: 50%;
-  margin-right: -66.66667%;
-}
-/* line 141, ../sass/_vdesign.scss */
-.isotope-options ul li:nth-child(5) {
-  float: left;
-  width: 16.66667%;
-  margin-left: 66.66667%;
-  margin-right: -83.33333%;
-}
-/* line 147, ../sass/_vdesign.scss */
-.isotope-options ul li:nth-child(6) {
-  float: left;
-  width: 16.66667%;
-  margin-left: 83.33333%;
-  margin-right: -100%;
-}
 
-/* line 156, ../sass/_vdesign.scss */
+/* line 160, ../sass/_vdesign.scss */
 .isotope-element {
   width: auto;
   height: auto;
@@ -1976,14 +1968,14 @@ body {
   color: #fff;
 }
 
-/* line 167, ../sass/_vdesign.scss */
+/* line 171, ../sass/_vdesign.scss */
 .isotope-element img {
   width: auto;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 173, ../sass/_vdesign.scss */
+/* line 177, ../sass/_vdesign.scss */
 #block-views-masonry-block-1 .isotope-element {
   width: 20px;
   height: auto;
@@ -1994,14 +1986,14 @@ body {
   background: transparent;
   color: #fff;
 }
-/* line 183, ../sass/_vdesign.scss */
+/* line 187, ../sass/_vdesign.scss */
 #block-views-masonry-block-1 .isotope-element img {
   width: auto;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 189, ../sass/_vdesign.scss */
+/* line 193, ../sass/_vdesign.scss */
 #cboxClose {
   bottom: auto;
   top: 0;
