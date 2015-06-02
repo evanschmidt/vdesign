@@ -1890,12 +1890,19 @@ body {
   clear: both;
 }
 
-/* line 99, ../sass/_vdesign.scss */
+/* line 98, ../sass/_vdesign.scss */
+a.inquire {
+  background: #6defb6;
+  text-decoration: none;
+  padding: 1em;
+}
+
+/* line 104, ../sass/_vdesign.scss */
 .isotope-options {
   background: transparent;
   height: 4.5em;
 }
-/* line 102, ../sass/_vdesign.scss */
+/* line 107, ../sass/_vdesign.scss */
 .isotope-options ul {
   float: left;
   width: 100%;
@@ -1944,11 +1951,11 @@ body {
       }
   */
 }
-/* line 110, ../sass/_vdesign.scss */
+/* line 115, ../sass/_vdesign.scss */
 .isotope-options ul li {
   list-style: none;
 }
-/* line 112, ../sass/_vdesign.scss */
+/* line 117, ../sass/_vdesign.scss */
 .isotope-options ul li a {
   color: #222222;
   display: inline;
@@ -1958,7 +1965,7 @@ body {
   text-transform: lowercase;
 }
 
-/* line 162, ../sass/_vdesign.scss */
+/* line 167, ../sass/_vdesign.scss */
 .isotope-element {
   width: auto;
   height: auto;
@@ -1970,14 +1977,14 @@ body {
   color: #fff;
 }
 
-/* line 173, ../sass/_vdesign.scss */
+/* line 178, ../sass/_vdesign.scss */
 .isotope-element img {
   width: auto;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 179, ../sass/_vdesign.scss */
+/* line 184, ../sass/_vdesign.scss */
 #block-views-masonry-block-1 .isotope-element {
   width: 20px;
   height: auto;
@@ -1988,14 +1995,14 @@ body {
   background: transparent;
   color: #fff;
 }
-/* line 189, ../sass/_vdesign.scss */
+/* line 194, ../sass/_vdesign.scss */
 #block-views-masonry-block-1 .isotope-element img {
   width: auto;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 195, ../sass/_vdesign.scss */
+/* line 200, ../sass/_vdesign.scss */
 #cboxClose {
   bottom: auto;
   top: 0;
