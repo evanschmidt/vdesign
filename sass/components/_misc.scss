@@ -97,6 +97,7 @@
 /* The name of the website. */
 .header__site-name {
   margin: 0;
+  font-weight: normal;
   @include adjust-font-size-to( $h1-font-size );
 }
 

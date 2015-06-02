@@ -11,7 +11,9 @@
  		display: none;
  	}
  }
-
+#header {
+  border-bottom: 1px solid $lessblack;
+}
 #block-block-6 {
   border-top: 10px solid $lightgreen;
   margin: 0;
