@@ -27,7 +27,7 @@ $(function() {
 
   $container.isotope({
     itemSelector: '.isotope-element',
-    filter: '.new'
+    filter: '.logos'
   });
 });
 
