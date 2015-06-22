@@ -22,6 +22,15 @@ Drupal.behaviors.my_custom_behavior = {
   }
 };
 
+$(function() {
+  var $container = $('#isotope-container');
+
+  $container.isotope({
+    itemSelector: '.isotope-element',
+    filter: '.new'
+  });
+});
+
 //Configure colorbox call back to resize with custom dimensions
   $.colorbox.settings.onLoad = function() {
     colorboxResize();
