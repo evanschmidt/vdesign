@@ -28,6 +28,7 @@ $(function() {
   $container.isotope({
     itemSelector: '.isotope-element',
     filter: '.new'
+  });
 });
 
 //Configure colorbox call back to resize with custom dimensions
