@@ -8,12 +8,12 @@
 
 
 # Change this to :production when ready to deploy the CSS to the live server.
-#environment = :development
-environment = :production
+environment = :development
+#environment = :production
 
 # In development, we can turn on the FireCompass-compatible debug_info.
-firecompass = false
-#firecompass = true
+#firecompass = false
+firecompass = true
 
 disable_warnings = true
 
