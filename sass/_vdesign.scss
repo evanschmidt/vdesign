@@ -199,9 +199,11 @@
   }
 }
 .field-slideshow-1-pager {
-  clear: right;
-  list-style: inside none none;
-  padding: 0;
+    clear: right;
+  ul {
+    list-style: inside none none;
+    padding: 0;    
+  }
 }
 #cboxClose {
     bottom: auto;
