@@ -2017,6 +2017,11 @@ a.inquire {
 }
 
 /* line 206, ../sass/_vdesign.scss */
+.field-slideshow {
+  margin: 0 auto;
+}
+
+/* line 209, ../sass/_vdesign.scss */
 #cboxClose {
   bottom: auto;
   top: 0;
