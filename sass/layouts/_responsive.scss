@@ -94,7 +94,7 @@ $zen-auto-include-item-base: false;
   }
  } 
 
-  #main-menu, .isotope-options, #block-system-main-menu {
+  #main-menu, #isotope-options, #block-system-main-menu {
     ul {
     //@include zen-grid-background();
       li {
@@ -198,7 +198,7 @@ $zen-auto-include-item-base: false;
   }
  } 
 
-  #main-menu, .isotope-options, #block-system-main-menu {
+  #main-menu, #isotope-options, #block-system-main-menu {
     ul {
       //@include zen-grid-background();
       li {
