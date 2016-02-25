@@ -112,18 +112,22 @@
     @include zen-nested-container();
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 2em;
     //@include zen-grid-background();
     li {
       list-style: none;
+
       a {
         color: $lessblack;
         display: inline;
         float: left;
+        margin-right: 1em;
         text-align: center;
         text-decoration: none;
         text-transform: lowercase;
       }
     }
+/*
     li:nth-child(1) {
         @include zen-grid-item(1, 1);
       a {
@@ -160,6 +164,7 @@
         //background: none repeat scroll 0 0 $pink;
       }
     }
+*/
   }
   }
 //isotope layout
